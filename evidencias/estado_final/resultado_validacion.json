@@ -1,0 +1,58 @@
+{
+  "dispositivo": "R-SUC-02",
+  "ip_gestion": "10.255.0.2",
+  "total_evaluaciones": 15,
+  "total_cumple": 15,
+  "porcentaje": 100.0,
+  "veredicto": "CONFORME - INFRAESTRUCTURA VALIDADA AL 100%",
+  "detalles": [
+    {
+      "item": "VLAN 10 Existencia",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 10 IP Gateway",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 10 M\u00e1scara de Red",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 10 Estado Operativo",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 20 Existencia",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 20 IP Gateway",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 20 M\u00e1scara de Red",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 20 Estado Operativo",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 99 Existencia",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 99 IP Gateway",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 99 M\u00e1scara de Red",
+      "estado": "CUMPLE"
+    },
+    {
+      "item": "VLAN 99 Estado Operativo",
+      "estado": "CUMPLE"
+    }
+  ]
+}

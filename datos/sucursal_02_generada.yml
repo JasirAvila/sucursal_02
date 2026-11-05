@@ -1,0 +1,49 @@
+sucursal_02:
+  dispositivo:
+    hostname: "R-SUC-02"
+    modelo: "CSR1000v"
+    sistema_operativo: "Cisco IOS XE"
+    ip_gestion_wan: "10.255.0.2"
+    mascara_wan: "255.255.255.252"
+    interfaz_troncal: "GigabitEthernet2"
+  bloque_asignado: "10.20.0.0/23"
+  vlans:
+    - id: 10
+      nombre: "ADMINISTRACION"
+      subinterfaz: "GigabitEthernet2.10"
+      red: "10.20.0.0"
+      prefijo: 26
+      mascara: "255.255.255.192"
+      gateway: "10.20.0.1"
+      rango_utilizable:
+        inicio: "10.20.0.2"
+        fin: "10.20.0.62"
+      hosts_requeridos: 50
+      hosts_disponibles: 62
+      mecanismo_config: "RESTCONF"
+    - id: 20
+      nombre: "OPERACION"
+      subinterfaz: "GigabitEthernet2.20"
+      red: "10.20.0.64"
+      prefijo: 27
+      mascara: "255.255.255.224"
+      gateway: "10.20.0.65"
+      rango_utilizable:
+        inicio: "10.20.0.66"
+        fin: "10.20.0.94"
+      hosts_requeridos: 25
+      hosts_disponibles: 30
+      mecanismo_config: "NETCONF"
+    - id: 99
+      nombre: "GESTION"
+      subinterfaz: "GigabitEthernet2.99"
+      red: "10.20.0.96"
+      prefijo: 28
+      mascara: "255.255.255.240"
+      gateway: "10.20.0.97"
+      rango_utilizable:
+        inicio: "10.20.0.98"
+        fin: "10.20.0.110"
+      hosts_requeridos: 10
+      hosts_disponibles: 14
+      mecanismo_config: "INTEROPERABILIDAD"

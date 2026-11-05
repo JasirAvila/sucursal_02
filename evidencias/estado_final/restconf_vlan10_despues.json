@@ -1,0 +1,19 @@
+{
+  "Cisco-IOS-XE-native:GigabitEthernet": {
+    "name": "2.10",
+    "description": "VLAN 10 - ADMINISTRACION",
+    "encapsulation": {
+      "dot1Q": {
+        "vlan-id": 10
+      }
+    },
+    "ip": {
+      "address": {
+        "primary": {
+          "address": "10.20.0.1",
+          "mask": "255.255.255.192"
+        }
+      }
+    }
+  }
+}

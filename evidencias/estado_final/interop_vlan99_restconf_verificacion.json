@@ -1,0 +1,19 @@
+{
+  "Cisco-IOS-XE-native:GigabitEthernet": {
+    "name": "2.99",
+    "description": "VLAN 99 - GESTION (MODIFICADO VIA NETCONF)",
+    "encapsulation": {
+      "dot1Q": {
+        "vlan-id": 99
+      }
+    },
+    "ip": {
+      "address": {
+        "primary": {
+          "address": "10.20.0.97",
+          "mask": "255.255.255.240"
+        }
+      }
+    }
+  }
+}
